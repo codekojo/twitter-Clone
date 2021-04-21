@@ -10,9 +10,9 @@ export default {
     marginRight: 10,
   },
   imageProfile: {
-    height: 70,
-    width: 70,
-    borderRadius: 70 / 2,
+    height: 55,
+    width: 55,
+    borderRadius: 55 / 2,
   },
   RightFeedContainer: {
     flex: 1,
@@ -54,7 +54,7 @@ export default {
     marginVertical: 5,
   },
   itemSepator: {
-    height: 0.3,
+    height: 0.5,
     backgroundColor: color.darkGray,
     marginVertical: 5,
   },

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image} from 'react-native';
+import {Image, View} from 'react-native';
 import defaultStyle from '../config/defaultStyle';
 
 function ProfileImage({uris}) {
@@ -8,7 +8,7 @@ function ProfileImage({uris}) {
       source={{
         uri: uris,
       }}
-      resizeMode="contain"
+      resizeMode="cover"
       style={defaultStyle.imageProfile}
     />
   );

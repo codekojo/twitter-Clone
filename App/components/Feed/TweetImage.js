@@ -8,7 +8,6 @@ function TweetImage({source}) {
         source={{
           uri: source,
         }}
-        resizeMode="cover"
         style={{height: 200, width: '100%', borderRadius: 20}}
       />
     </View>

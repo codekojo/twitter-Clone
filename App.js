@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, FlatList, View} from 'react-native';
+import {SafeAreaView, FlatList} from 'react-native';
 import ItemSeparator from './App/common/ItemSeparator';
 import Feed from './App/screens/Feed';
 const DATA = [
@@ -51,7 +51,7 @@ const DATA = [
     verified: false,
   },
   {
-    id: 33,
+    id: 4,
     userName: 'Don Life',
     userHandle: 'Do0000___',
     profileURL:
@@ -59,14 +59,14 @@ const DATA = [
     tweet: 'And So my fellow Ghanaians!!!!',
     dateCreated: '10h',
     social: {
-      likes: 10,
+      likes: 100,
       retweet: 100,
       love: 100,
     },
     verified: false,
   },
   {
-    id: 4,
+    id: 5,
     userName: 'J. Cole',
     userHandle: 'coleworld',
     profileURL:
@@ -83,7 +83,7 @@ const DATA = [
     verified: true,
   },
   {
-    id: 5,
+    id: 6,
     userName: 'King James',
     userHandle: 'kingJames',
     profileURL:
@@ -100,7 +100,7 @@ const DATA = [
     verified: true,
   },
   {
-    id: 6,
+    id: 7,
     userName: 'Bob Marley',
     userHandle: 'bob',
     profileURL:
@@ -115,7 +115,7 @@ const DATA = [
     verified: true,
   },
   {
-    id: 7,
+    id: 8,
     userName: 'Amakye Dede',
     userHandle: 'iron_boy',
     profileURL:
