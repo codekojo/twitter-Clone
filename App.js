@@ -14,7 +14,7 @@ const DATA = [
     social: {
       likes: 284,
       retweet: 174,
-      love: 784,
+      love: 780,
     },
     tweetImage:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0UvdagP7j0bZTGEwlc5JAMzBLDqKvfeQWw&usqp=CAU',
