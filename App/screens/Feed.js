@@ -11,7 +11,6 @@ function Feed({
   userName,
   userHandle,
   profileURL,
-  TweetUrlImage,
   dateCreated,
   tweet,
   social,
