@@ -3,6 +3,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import IndexFeed from '../components/Feed/IndexFeed';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import color from '../config/color';
+import Timeline from '../components/Timeline';
 
 const FeedStack = createStackNavigator();
 
@@ -19,6 +20,10 @@ function FeedNavigation() {
           headerRightContainerStyle: {
             paddingHorizontal: 10,
           },
+          headerStyle: {
+            height: 98,
+          },
+
           headerLeft: () => {
             return (
               <MaterialCommunityIcons
@@ -29,13 +34,7 @@ function FeedNavigation() {
             );
           },
           headerRight: () => {
-            return (
-              <MaterialCommunityIcons
-                name="star-four-points-outline"
-                color={color.blue}
-                size={35}
-              />
-            );
+            return <Timeline />;
           },
           headerTitle: () => {
             return (

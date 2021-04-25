@@ -1,7 +1,8 @@
 import React from 'react';
-import {FlatList} from 'react-native';
+import {FlatList, View, Text, StyleSheet, Image} from 'react-native';
 import ItemSeparator from '../../common/ItemSeparator';
 import Feed from '../../screens/Feed';
+import ComposeTweet from '../ComposeTweet';
 
 const DATA = [
   {
@@ -151,13 +152,16 @@ function IndexFeed() {
     );
   }
   return (
-    <FlatList
-      contentContainerStyle={flatStyle}
-      data={DATA}
-      keyExtractor={item => item.id}
-      renderItem={renderFeed}
-      ItemSeparatorComponent={ItemSeparator}
-    />
+    <View style={{flex: 1}}>
+      <FlatList
+        contentContainerStyle={flatStyle}
+        data={DATA}
+        keyExtractor={item => item.id}
+        renderItem={renderFeed}
+        ItemSeparatorComponent={ItemSeparator}
+      />
+      <ComposeTweet />
+    </View>
   );
 }
 
