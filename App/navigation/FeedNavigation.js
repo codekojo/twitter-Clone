@@ -14,15 +14,14 @@ function FeedNavigation() {
         name="Feed"
         component={IndexFeed}
         options={{
+          headerTitleAlign: 'center',
           headerLeftContainerStyle: {
             paddingHorizontal: 10,
           },
           headerRightContainerStyle: {
             paddingHorizontal: 10,
           },
-          headerStyle: {
-            height: 98,
-          },
+          headerStyle: {},
 
           headerLeft: () => {
             return (
