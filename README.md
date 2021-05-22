@@ -3,74 +3,69 @@
 </h1>
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
+    <img src="https://github.com/codekojo/twitter-Clone/blob/main/twitter/Screen%20Shot%202021-05-22%20at%209.23.07%20PM.png?raw=true" alt="IMG" />
 </p>
-
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
-
-## 🚨 Forking this repo (please read!)
-
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
-
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
-1. Install the Gatsby CLI
+1. Install the react-native CLI
+
+2. Install dependencies
 
    ```sh
-   npm install -g gatsby-cli
+   yarn install
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+3. Start the metro dev server
 
    ```sh
-   nvm install
+   yarn react-native start
    ```
 
-3. Install dependencies
+## 🚀 Building and Running on simulator
+
+1. building and running on ios
 
    ```sh
-   yarn
+   yarn react-native run-ios
    ```
 
-4. Start the development server
+2. building and running on android
 
    ```sh
-   npm start
+   yarn react-native run-android
    ```
 
-## 🚀 Building and Running for Production
-
-1. Generate a full static production build
+3. building and running on a real android
 
    ```sh
-   npm run build
+   add local.properties file in android folder and add sdkdir="sdk directory"
    ```
 
-1. Preview the site as it will appear once deployed
+4. building and running on a real android
 
    ```sh
-   npm run serve
+   yarn react-native run-android
    ```
 
-## 🎨 Color Reference
+<h1>On IOS</h1>
+<p align="center">
+    <img src="https://github.com/codekojo/twitter-Clone/blob/main/twitter/Screen%20Shot%202021-05-22%20at%209.21.16%20PM.png?raw=true" alt="IMG" />
+</p>
+<p align="center">
+    <img src="https://github.com/codekojo/twitter-Clone/blob/main/twitter/Screen%20Shot%202021-05-22%20at%209.21.24%20PM.png?raw=true" alt="IMG" />
+</p>
+<p align="center">
+    <img src="https://github.com/codekojo/twitter-Clone/blob/main/twitter/Screen%20Shot%202021-05-22%20at%209.21.29%20PM.png?raw=true" alt="IMG" />
+</p>
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+<h1>On Android</h1>
+<p align="center">
+    <img src="https://github.com/codekojo/twitter-Clone/blob/main/twitter/Screen%20Shot%202021-05-22%20at%209.22.12%20PM.png?raw=true" alt="IMG" />
+</p>
+<p align="center">
+    <img src="https://github.com/codekojo/twitter-Clone/blob/main/twitter/Screen%20Shot%202021-05-22%20at%209.22.28%20PM.png?raw=true" alt="IMG" />
+</p>
+<p align="center">
+    <img src="https://github.com/codekojo/twitter-Clone/blob/main/twitter/Screen%20Shot%202021-05-22%20at%209.22.35%20PM.png?raw=true" alt="IMG" />
+</p>
